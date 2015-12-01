@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>miaodian2015</title>
+  <title>revolution | miaodian2015</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="15.12.1笔记
 1.android:layout_gravity=”center_horizontal”将控件置于水平方向的中心位置
@@ -12,7 +12,7 @@
 4.View viewById = findViewById(R.id.tv_sex);
 ctrl+alt+v将findViewById(R.id.xx">
 <meta property="og:type" content="article">
-<meta property="og:title" content="miaodian2015">
+<meta property="og:title" content="revolution">
 <meta property="og:url" content="http://yoursite.com/2015/12/01/Horizontal/index.html">
 <meta property="og:site_name" content="miaodian2015">
 <meta property="og:description" content="15.12.1笔记
@@ -21,9 +21,9 @@ ctrl+alt+v将findViewById(R.id.xx">
 3.as中  ctrl+alt+L 调整布局
 4.View viewById = findViewById(R.id.tv_sex);
 ctrl+alt+v将findViewById(R.id.xx">
-<meta property="og:updated_time" content="2015-12-01T14:14:47.815Z">
+<meta property="og:updated_time" content="2015-12-01T14:26:28.532Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="miaodian2015">
+<meta name="twitter:title" content="revolution">
 <meta name="twitter:description" content="15.12.1笔记
 1.android:layout_gravity=”center_horizontal”将控件置于水平方向的中心位置
 2.RadioGroup 中可以定义RadioButton  
@@ -78,12 +78,22 @@ ctrl+alt+v将findViewById(R.id.xx">
         <section id="main"><article id="post-Horizontal" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/12/01/Horizontal/" class="article-date">
-  <time datetime="2015-12-01T14:14:47.901Z" itemprop="datePublished">2015-12-01</time>
+  <time datetime="2015-11-30T21:55:55.000Z" itemprop="datePublished">2015-12-01</time>
 </a>
     
   </div>
   <div class="article-inner">
     
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      revolution
+    </h1>
+  
+
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -93,10 +103,59 @@ ctrl+alt+v将findViewById(R.id.xx">
 <p>3.as中  ctrl+alt+L 调整布局</p>
 <p>4.View viewById = findViewById(R.id.tv_sex);</p>
 <p>ctrl+alt+v将findViewById(R.id.xx)补全</p>
-<p>案例：<br>avtivity1<br>&lt;?xml version=”1.0” encoding=”utf-8”?&gt;</p>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingbottom="@dimen/activity_vertical_margin" android:paddingleft="@dimen/activity_horizontal_margin" android:paddingright="@dimen/activity_horizontal_margin" android:paddingtop="@dimen/activity_vertical_margin" tools:context="com.example.administrator.jiaoxueshu.MainActivity"><br><linearlayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout"><br><br><br>    <textview android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名" android:id="@+id/textView"><br><br><br>    <edittext android:id="@+id/et_nm" android:text="请输入密码" android:layout_width="295dp" android:layout_height="wrap_content"><br></edittext></textview></linearlayout><br>    <linearlayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><br>      <textview android:text="密码" android:layout_width="wrap_content" android:layout_height="wrap_content"><br>        <edittext android:id="@+id/et_pw" android:layout_width="310dp" android:layout_height="wrap_content" android:text="请输入密码"><br>    </edittext></textview></linearlayout><br>    <radiogroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"><br>        <radiobutton android:id="@+id/rb_man" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="男"><br>        <radiobutton android:id="@+id/rb_woman" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="女"><br><br>    </radiobutton></radiobutton></radiogroup><br>    <button android:id="@+id/bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提交用户信息" android:layout_gravity="center_horizontal"><br><br></button></linearlayout>
+<p>案例：</p>
+<p>avtivity1</p>
+<p>&lt;?xml version=”1.0” encoding=”utf-8”?&gt;</p>
+<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingbottom="@dimen/activity_vertical_margin" android:paddingleft="@dimen/activity_horizontal_margin" android:paddingright="@dimen/activity_horizontal_margin" android:paddingtop="@dimen/activity_vertical_margin" tools:context="com.example.administrator.jiaoxueshu.MainActivity"><br>   <linearlayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout"><br><br><br>    <textview android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名" android:id="@+id/textView"><br><br><br>    <edittext android:id="@+id/et_nm" android:text="请输入密码" android:layout_width="295dp" android:layout_height="wrap_content"><br></edittext></textview></linearlayout>
 
 
+<pre><code>&lt;LinearLayout
+    android:orientation=<span class="string">"horizontal"</span>
+    android:layout_width=<span class="string">"wrap_content"</span>
+    android:layout_height=<span class="string">"wrap_content"</span>&gt;
+  &lt;TextView
+
+      android:<span class="type">text</span>=<span class="string">"密码"</span>
+      android:layout_width=<span class="string">"wrap_content"</span>
+      android:layout_height=<span class="string">"wrap_content"</span> /&gt;
+    &lt;EditText
+        android:<span class="property">id</span>=<span class="string">"@+id/et_pw"</span>
+        android:layout_width=<span class="string">"310dp"</span>
+        android:layout_height=<span class="string">"wrap_content"</span>
+        android:<span class="type">text</span>=<span class="string">"请输入密码"</span>/&gt;
+&lt;/LinearLayout&gt;
+
+
+
+&lt;RadioGroup
+    android:orientation=<span class="string">"horizontal"</span>
+    android:layout_width=<span class="string">"wrap_content"</span>
+    android:layout_height=<span class="string">"wrap_content"</span>&gt;
+    &lt;RadioButton
+        android:<span class="property">id</span>=<span class="string">"@+id/rb_man"</span>
+        android:layout_width=<span class="string">"wrap_content"</span>
+        android:layout_height=<span class="string">"wrap_content"</span>
+        android:checked=<span class="string">"true"</span>
+        android:<span class="type">text</span>=<span class="string">"男"</span>
+
+        /&gt;
+    &lt;RadioButton
+        android:<span class="property">id</span>=<span class="string">"@+id/rb_woman"</span>
+        android:layout_width=<span class="string">"wrap_content"</span>
+        android:layout_height=<span class="string">"wrap_content"</span>
+        android:<span class="type">text</span>=<span class="string">"女"</span>
+
+        /&gt;
+
+&lt;/RadioGroup&gt;
+
+&lt;Button
+    android:<span class="property">id</span>=<span class="string">"@+id/bt"</span>
+    android:layout_width=<span class="string">"wrap_content"</span>
+    android:layout_height=<span class="string">"wrap_content"</span>
+    android:<span class="type">text</span>=<span class="string">"提交用户信息"</span>
+    android:layout_gravity=<span class="string">"center_horizontal"</span> /&gt;
+</code></pre><p></p></linearlayout><p></p>
 <p> activity2<br>  &lt;?xml version=”1.0” encoding=”utf-8”?&gt;</p>
 <linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 
@@ -187,7 +246,7 @@ tv_sex.setText(<span class="string">"性别："</span>+sex);
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/01/Horizontal/" data-id="cihngvn580000eoqe3yj4tj0b" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/01/Horizontal/" data-id="cihnhb1s50000moqe64vfudvv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -221,7 +280,7 @@ tv_sex.setText(<span class="string">"性别："</span>+sex);
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -233,23 +292,11 @@ tv_sex.setText(<span class="string">"性别："</span>+sex);
       <ul>
         
           <li>
-            <a href="/2015/12/01/Horizontal/">(no title)</a>
+            <a href="/2015/12/01/Horizontal/">revolution</a>
           </li>
         
           <li>
             <a href="/2015/12/01/revolutionist/">revolution</a>
-          </li>
-        
-          <li>
-            <a href="/2015/12/01/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2015/12/01/miao/">miao</a>
-          </li>
-        
-          <li>
-            <a href="/2015/11/30/miaodian/">miaodian</a>
           </li>
         
       </ul>
