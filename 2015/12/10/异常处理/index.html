@@ -3,24 +3,36 @@
 <head>
   <meta charset="utf-8">
   
-  <title>c# 窗体加载下写下面2行代码全屏关闭按钮消失. | miaodian2015</title>
+  <title>JAVA 异常处理复习 | miaodian2015</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="c#窗体加载下写下面2行代码全屏关闭按钮消失.private void Form1_Load(object sender, EventArgs e)        {            this.WindowState = FormWindowState.Maximized;            this.ControlBox = false;
-}
-安alt+f4退出">
+  <meta name="description" content="public class Tran {    //创建类
+//定义方法，抛出异常
+static int avg(int number1,int number2)throws Exception{
+    if(number1&amp;lt;0||number2&amp;lt;0){
+        throw new Exception(&quot;不可以使用负值&quot;);
+    }
+    if(number1&amp;gt;10">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c# 窗体加载下写下面2行代码全屏关闭按钮消失.">
-<meta property="og:url" content="http://yoursite.com/2015/12/08/c#/index.html">
+<meta property="og:title" content="JAVA 异常处理复习">
+<meta property="og:url" content="http://yoursite.com/2015/12/10/异常处理/index.html">
 <meta property="og:site_name" content="miaodian2015">
-<meta property="og:description" content="c#窗体加载下写下面2行代码全屏关闭按钮消失.private void Form1_Load(object sender, EventArgs e)        {            this.WindowState = FormWindowState.Maximized;            this.ControlBox = false;
-}
-安alt+f4退出">
-<meta property="og:updated_time" content="2015-12-08T09:25:14.077Z">
+<meta property="og:description" content="public class Tran {    //创建类
+//定义方法，抛出异常
+static int avg(int number1,int number2)throws Exception{
+    if(number1&amp;lt;0||number2&amp;lt;0){
+        throw new Exception(&quot;不可以使用负值&quot;);
+    }
+    if(number1&amp;gt;10">
+<meta property="og:updated_time" content="2015-12-13T11:47:40.353Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="c# 窗体加载下写下面2行代码全屏关闭按钮消失.">
-<meta name="twitter:description" content="c#窗体加载下写下面2行代码全屏关闭按钮消失.private void Form1_Load(object sender, EventArgs e)        {            this.WindowState = FormWindowState.Maximized;            this.ControlBox = false;
-}
-安alt+f4退出">
+<meta name="twitter:title" content="JAVA 异常处理复习">
+<meta name="twitter:description" content="public class Tran {    //创建类
+//定义方法，抛出异常
+static int avg(int number1,int number2)throws Exception{
+    if(number1&amp;lt;0||number2&amp;lt;0){
+        throw new Exception(&quot;不可以使用负值&quot;);
+    }
+    if(number1&amp;gt;10">
   
     <link rel="alternative" href="/atom.xml" title="miaodian2015" type="application/atom+xml">
   
@@ -66,10 +78,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-c#" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-异常处理" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2015/12/08/c#/" class="article-date">
-  <time datetime="2015-12-07T21:55:55.000Z" itemprop="datePublished">2015-12-08</time>
+    <a href="/2015/12/10/异常处理/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
 </a>
     
   </div>
@@ -80,7 +92,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      c# 窗体加载下写下面2行代码全屏关闭按钮消失.
+      JAVA 异常处理复习
     </h1>
   
 
@@ -89,14 +101,34 @@
     <div class="article-entry" itemprop="articleBody">
       
         <a id="more"></a>
-<p>c#<br>窗体加载下写下面2行代码全屏关闭按钮消失.<br>private void Form1_Load(object sender, EventArgs e)<br>        {<br>            this.WindowState = FormWindowState.Maximized;<br>            this.ControlBox = false;</p>
-<pre><code>}
-</code></pre><p>安alt+f4退出</p>
+<p>public class Tran {    //创建类</p>
+<pre><code><span class="comment">//定义方法，抛出异常</span>
+</code></pre><p>static int avg(int number1,int number2)throws Exception{</p>
+<pre><code>    <span class="keyword">if</span>(number1&lt;<span class="number">0</span>||number2&lt;<span class="number">0</span>){
+        throw new <span class="type">Exception</span>(<span class="string">"不可以使用负值"</span>);
+    }
+    <span class="keyword">if</span>(number1&gt;<span class="number">100</span>||number2&gt;<span class="number">100</span>)
+    {
+        throw new <span class="type">Exception</span>(<span class="string">"数值太大了"</span>);
+    }    
+    <span class="keyword">return</span> (number1+number2)/<span class="number">2</span>;
+}
+
+public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub
+    <span class="keyword">try</span>{            //<span class="keyword">try</span>代码块处理可能出现的问题
+        <span class="type">int</span> <span class="literal">result</span>=avg(<span class="number">121</span>,<span class="number">542</span>);//调用avg（）方法
+        <span class="type">System</span>.<span class="keyword">out</span>.println(<span class="literal">result</span>);
+    }catch(<span class="type">Exception</span> e){
+        <span class="type">System</span>.<span class="keyword">out</span>.println(e);//输出异常信息
+    }
+}
+</code></pre><p>}</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/08/c#/" data-id="cii4j0uns000abgqelac7c9f6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/10/异常处理/" data-id="cii4j0unj0007bgqeaedtcs0m" class="article-share-link">Share</a>
       
       
     </footer>
@@ -105,19 +137,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/12/09/数据库/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2015/12/10/类的高级类型/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          数据库建表
+          JAVA 类的高级类型复习
         
       </div>
     </a>
   
   
-    <a href="/2015/12/01/revolutionist/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2015/12/10/类和对象/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">revolution</div>
+      <div class="article-nav-title">JAVA 类和对象复习</div>
     </a>
   
 </nav>

@@ -61,6 +61,613 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-My-New-Post-1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/13/My-New-Post-1/" class="article-date">
+  <time datetime="2015-12-13T12:44:37.000Z" itemprop="datePublished">2015-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/13/My-New-Post-1/">My New Post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/13/My-New-Post-1/" data-id="cii4j0unx000cbgqe3t6tqcjv" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/13/My-New-Post/" class="article-date">
+  <time datetime="2015-12-13T12:42:21.000Z" itemprop="datePublished">2015-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/13/My-New-Post/">My New Post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/13/My-New-Post/" data-id="cii4j0unv000bbgqe0xxkx17l" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-包装类" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/11/包装类/" class="article-date">
+  <time datetime="2015-12-11T05:50:57.447Z" itemprop="datePublished">2015-12-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.Integer 类中的parseInt()方法返回与调用该方法的数值字符串相应的类型（int）值</p>
+<p>public class Summation {                            //创建类Summation</p>
+<pre><code><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(String[] args) {        <span class="comment">//主方法</span>
+    <span class="comment">// TODO Auto-generated method stub</span>
+    String <span class="keyword">str</span>[]={<span class="string">"32"</span>,<span class="string">"23"</span>,<span class="string">"53"</span>,<span class="string">"64"</span>,<span class="string">"45"</span>};    <span class="comment">//定义String数组</span>
+    <span class="keyword">int</span> <span class="keyword">sum</span>=<span class="number">0</span>;
+    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="keyword">str</span>.length;i++){                <span class="comment">//循环遍历数组</span>
+        <span class="keyword">int</span> myint=Integer.parseInt(<span class="keyword">str</span>[i]);    <span class="comment">//将数组中的每个元素都转换为int型</span>
+        <span class="keyword">sum</span>=<span class="keyword">sum</span>+myint;                            <span class="comment">//将数组中的各元素相加</span>
+
+    }
+    System.out.println(<span class="string">"数组中的各元素之和是："</span>+<span class="keyword">sum</span>);
+
+}
+</code></pre><p>}</p>
+<p>2.Inter类的toString()方法，可将Integer对象转换为十进制字符串。toBinaryString()、toHexString()和toOctalString()方法分别将值转换成二进制，十六进制，八进制字符串。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/11/包装类/" data-id="cii4j0unm0008bgqetrwthemm" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-流输入输出" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/流输入输出/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/流输入输出/">JAVA       I/O流输入输出 复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>15<br>I/O流输入输出</p>
+<p>1.FileInputStream 与 FileOutputStream 类都用来操作磁盘文件</p>
+<p>2.FileReader和FileWriter字符流对应了FileInputStream 和FileOutputStream类</p>
+<p>带缓存的输入 输出流</p>
+<p>3.BufferedInputStream(InputStream in)类对所有InputStream类进行缓存区的包装以达到性能的优化。</p>
+<p>BufferedInputStream(InputStream in)</p>
+<p>BufferedInputStream(InputStream in，int size)</p>
+<p>使用BufferedOutputStream输出信息和OutputStream输出信息完全一样，只不过BufferedOutputStream有一个flush()方法用来将缓存区的数据强制输出完</p>
+<p>BufferedOutputStream(OutputStream in)</p>
+<p>BufferedOutputStream(OutputStream in，int size)</p>
+<p>4.BufferedReader类与BufferedWriter类分别继承Reader类和Writer类。这两个类同样具有内部缓存机制，并可以 以行为单位 进行输入  输出</p>
+<p>数据输入 输出流</p>
+<p>5.数据输入  输出（DataInputStream类和DataOutputStream类）允许应用程序以与机器无关的方式从底层 输入流中读取基本Java数据型</p>
+<p>6.ZIP 压缩输入 输出流</p>
+<p>ZipOutputStream ZipInputStrem</p>
+<p>解压缩 ZIP文件    ZipInputStream(InputStream in)rf</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/流输入输出/" data-id="cii4j0un80003bgqe0mvn6jva" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-数组" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/数组/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/数组/">JAVA  数组复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>1.一维数组  int arr[]=new int[];  String str[]=new string[]</p>
+<p>2.二位数组 foreach语句遍历二维数组</p>
+<p>public class Tautog {                            //创建类</p>
+<pre><code>public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {                     //主方法
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub
+    <span class="type">int</span> arr2[][]=&lt;!--￼<span class="number">0</span>--&gt;;                //定义二位数组
+    <span class="type">System</span>.<span class="keyword">out</span>.println(<span class="string">"数组中的元素是："</span>);                //提示信息
+    <span class="keyword">for</span>(<span class="type">int</span> x[]:arr2){
+        <span class="keyword">for</span>(<span class="type">int</span> e:x){
+            <span class="keyword">if</span>(e==x.length ){
+                <span class="type">System</span>.<span class="keyword">out</span>.print(e);
+
+            }<span class="keyword">else</span>
+                <span class="type">System</span>.<span class="keyword">out</span>.print(e+<span class="string">"、"</span>);
+        }
+
+    }
+
+}
+</code></pre><p>}数组中的元素是：<br>4、3、1、2</p>
+<p>3.对数组进行排序 </p>
+<p>Arrays.sort(object)//将数组进行排序  //导入java.util.Arrays类</p>
+<p>import java.util.Arrays;                            //导入java.util.Arrays类<br>public class Taxis {                                //创建类</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{                        <span class="comment">//主方法</span>
+    <span class="comment">// TODO Auto-generated method stub</span>
+        <span class="keyword">int</span> arr[]=<span class="keyword">new</span> <span class="keyword">int</span>[]{<span class="number">23</span>,<span class="number">45</span>,<span class="number">67</span>,<span class="number">21</span>};                <span class="comment">//声明数组</span>
+        Arrays.sort(arr);                    <span class="comment">//将数组进行排序</span>
+        <span class="keyword">for</span>(<span class="keyword">int</span>  i=<span class="number">0</span>;i&lt;arr.length;i++)
+          <span class="keyword">if</span>(i==arr.length-<span class="number">1</span>){
+            System.out.print(arr[i]);
+        }
+        <span class="keyword">else</span>{
+            System.out.print(arr[i]+<span class="string">","</span>);
+        }
+}
+</code></pre><p>}</p>
+<p>4.复制数组<br> copyOf(arr,int newlength)<br> copyOfRange(arr,int formIndex,int toIndex)</p>
+<p>5.数组查询</p>
+<p>Arrays.binarySearch(Object[] a.Object key)<br>a：要搜索的数组     k:要搜索的值</p>
+<p>必须在进行前 对数组进行排序（通过sort（）方法）。否，出错。</p>
+<p>Arrays.binarySearch(Object[].a, int fromIndex ,int toIndex,Object key)</p>
+<p>a:要进行检索的数组<br>fromIndex:指定范围的开始索引（包含）；<br>toIndex:指定范围的结束处索引（不包含）；<br>key:要搜索的元素</p>
+<p>import java.util.Arrays;                    //导入java。util.Arrays<br>public class Rakel {                        //创建类</p>
+<pre><code><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(<span class="keyword">String</span>[] args) {<span class="comment">//主方法</span>
+    <span class="comment">// TODO Auto-generated method stub</span>
+    <span class="keyword">String</span> <span class="built_in">str</span>[]=<span class="keyword">new</span> <span class="keyword">String</span>[]{<span class="string">"fd"</span>,<span class="string">"sa"</span>,<span class="string">"hg"</span>,<span class="string">"jj"</span>};<span class="comment">//创建数组</span>
+    Arrays.<span class="built_in">sort</span>(<span class="built_in">str</span>);                            <span class="comment">//将数组进行排序</span>
+    <span class="built_in">int</span> index=Arrays.binarySearch(<span class="built_in">str</span>,<span class="number">0</span>,<span class="number">2</span>,<span class="string">"fd"</span>);
+    System.out.<span class="built_in">println</span>(<span class="string">"fd的索引位置是："</span>+index);
+}
+</code></pre><p>}</p>
+<p>6.冒泡排序</p>
+<p>public class BubbleSort {</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{
+    <span class="comment">// TODO Auto-generated method stub</span>
+    <span class="keyword">int</span>[] <span class="built_in">array</span>={<span class="number">65</span>,<span class="number">4</span>,<span class="number">23</span>,<span class="number">56</span>,<span class="number">24</span>,<span class="number">67</span>};        <span class="comment">//创建一个数组，</span>
+    BubbleSort sorter=<span class="keyword">new</span> BubbleSort();  <span class="comment">//创建冒泡排序的对象</span>
+    sorter.sort(<span class="built_in">array</span>);                    <span class="comment">//调用排序方法将</span>
+    }
+<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sort</span><span class="params">(<span class="keyword">int</span>[] <span class="built_in">array</span>)</span></span>{
+    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="built_in">array</span>.length;i++){
+        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;<span class="built_in">array</span>.length-i;j++){
+            <span class="keyword">if</span>(<span class="built_in">array</span>[j]&gt;<span class="built_in">array</span>[j+<span class="number">1</span>]){
+                <span class="keyword">int</span> temp=<span class="built_in">array</span>[j];
+                <span class="built_in">array</span>[j]=<span class="built_in">array</span>[j+<span class="number">1</span>];
+                <span class="built_in">array</span>[j+<span class="number">1</span>]=temp;
+            }
+        }
+
+    }
+    showArray(<span class="built_in">array</span>);                <span class="comment">//输出冒泡排序后的数组元素</span>
+
+
+}
+
+<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showArray</span><span class="params">(<span class="keyword">int</span>[] <span class="built_in">array</span>)</span></span>{
+    <span class="keyword">for</span>(<span class="keyword">int</span> i:<span class="built_in">array</span>){                    <span class="comment">//遍历数组</span>
+        System.out.print(<span class="string">"&gt;"</span>+i);
+
+
+    }
+    System.out.println();
+}
+</code></pre><p>}</p>
+<p>直接选择排序</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/数组/" data-id="cii4j0unb0004bgqeb9n088i4" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-接口，继承与多态" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/接口，继承与多态/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/接口，继承与多态/">JAVA 接口，继承与多态复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>接口，继承与多态</p>
+<p>1.多态</p>
+<p>public class Quadrangle {<br>    //实例化保存四边形对象的数组对象</p>
+<pre><code><span class="keyword">private</span> Quadrangle[] qtest=<span class="keyword">new</span> Quadrangle[<span class="number">6</span>];
+
+<span class="keyword">private</span> <span class="keyword">int</span> nextIndex=<span class="number">0</span>;
+
+<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">draw</span><span class="params">(Quadrangle q)</span></span>{        <span class="comment">//定义draw()方法，参数为四边形对象</span>
+    <span class="comment">//if(nextIndex&lt;qtest.length){</span>
+    <span class="comment">//    qtest[nextIndex]=q;</span>
+    <span class="comment">//    System.out.println(nextIndex);</span>
+    <span class="comment">//    nextIndex++;</span>
+    <span class="comment">//}</span>
+}
+
+<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{
+ <span class="comment">//实例化两个四边形对象，用于调用 draw()方法</span>
+    <span class="comment">// TODO Auto-generated method stub</span>
+    Quadrangle q=<span class="keyword">new</span> Quadrangle();
+    q.draw(<span class="keyword">new</span> Square());
+    <span class="comment">//以平行四边形对象参数调用draw()方法</span>
+    q.draw(<span class="keyword">new</span> Parallelogramgle());
+}
+</code></pre><p>}<br>class Square extends Quadrangle{</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="title">Square</span>(<span class="params"></span>)</span>{
+    System.<span class="keyword">out</span>.println(<span class="string">"正方形"</span>);
+}
+</code></pre><p>}<br>//定义一个平行四边形类，继承四边形类<br>class Parallelogramgle extends Quadrangle{</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="title">Parallelogramgle</span>(<span class="params"></span>)</span>{
+    System.<span class="keyword">out</span>.println(<span class="string">"平行四边形"</span>);
+}
+</code></pre><p>}</p>
+<p>正方形<br>平行四边形</p>
+<p>2.继承抽象类的所有子类需要将抽象类中的抽象方法进行覆盖</p>
+<p>3.接口</p>
+<p>public interface drawTest{<br>  void draw();接口内的方法，省略abstract关键字<br>}</p>
+<p>interface drawTest{            //定义接口<br>    public void draw();        //定义方法<br>}<br>//定义平行四边形类，该类继承了四边形，并实现了drawTest接口</p>
+<p>class ParallelogramgleUseInterface extends </p>
+<p>QuadrangleUserInterface implements drawTest{</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">draw</span>(<span class="params"></span>)</span>{
+    System.<span class="keyword">out</span>.println(<span class="string">"平行四边形.draw()"</span>);
+}
+<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">doAnyThing</span>(<span class="params"></span>)</span>{        <span class="comment">//覆盖父类方法</span>
+<span class="comment">//SomeSentence</span>
+}
+</code></pre><p>}<br>class SquareUseInterface extends </p>
+<p>QuadrangleUserInterface implements drawTest{</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">draw</span>(<span class="params"></span>)</span>{
+
+    System.<span class="keyword">out</span>.println(<span class="string">"正方形.draw()"</span>);
+}
+
+<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">doAnyThing</span>(<span class="params"></span>)</span>{
+
+    <span class="comment">//SomeSenyence</span>
+}
+</code></pre><p>}<br>class AnyThingUseInterface extends QuadrangleUserInterface{</p>
+<pre><code><span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">doAnyThing</span><span class="params">()</span></span>{
+
+    }
+</code></pre><p>}<br>public class QuadrangleUserInterface{//定义四边形类</p>
+<pre><code><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">doAnyThing</span><span class="params">()</span></span>{
+    <span class="comment">//SomeSentence</span>
+}
+<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{
+
+    <span class="comment">// TODO Auto-generated method stub</span>
+    drawTest[] d={     <span class="comment">//接口也可以进行向上转换</span>
+    <span class="keyword">new</span> SquareUseInterface(),
+    <span class="keyword">new</span> ParallelogramgleUseInterface()
+    };
+ <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;d.length;i++){
+     d[i].draw();    <span class="comment">//调用draw()方法</span>
+ }
+}
+</code></pre><p>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/接口，继承与多态/" data-id="cii4j0ung0006bgqe9acrhm0f" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-类的高级类型" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/类的高级类型/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/类的高级类型/">JAVA 类的高级类型复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>类的高级类型<br>1.分别使用import static 导入 java。lang.Math类中的静态成员方法  max()和java。<br>lang.System类中的out成员变量，这是就可以在程序中直接引用这些静态成员，如在主<br>方法中的out。println()表达式以及直接额使用max()方法。<br>package com.lzw;<br>import static java.lang.Math.max;<br>import static java.lang.System.out;</p>
+<p>public class ImportTest {</p>
+<pre><code>public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub
+</code></pre><p>//在主方法中可以直接 使用 這些靜太成員<br>        out.println(“1和4的較大的值是：”+max(1,4));<br>    }</p>
+<p>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/类的高级类型/" data-id="cii4j0un20001bgqe0cihz9tv" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-异常处理" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/异常处理/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/异常处理/">JAVA 异常处理复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>public class Tran {    //创建类</p>
+<pre><code><span class="comment">//定义方法，抛出异常</span>
+</code></pre><p>static int avg(int number1,int number2)throws Exception{</p>
+<pre><code>    <span class="keyword">if</span>(number1&lt;<span class="number">0</span>||number2&lt;<span class="number">0</span>){
+        throw new <span class="type">Exception</span>(<span class="string">"不可以使用负值"</span>);
+    }
+    <span class="keyword">if</span>(number1&gt;<span class="number">100</span>||number2&gt;<span class="number">100</span>)
+    {
+        throw new <span class="type">Exception</span>(<span class="string">"数值太大了"</span>);
+    }    
+    <span class="keyword">return</span> (number1+number2)/<span class="number">2</span>;
+}
+
+public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub
+    <span class="keyword">try</span>{            //<span class="keyword">try</span>代码块处理可能出现的问题
+        <span class="type">int</span> <span class="literal">result</span>=avg(<span class="number">121</span>,<span class="number">542</span>);//调用avg（）方法
+        <span class="type">System</span>.<span class="keyword">out</span>.println(<span class="literal">result</span>);
+    }catch(<span class="type">Exception</span> e){
+        <span class="type">System</span>.<span class="keyword">out</span>.println(e);//输出异常信息
+    }
+}
+</code></pre><p>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/异常处理/" data-id="cii4j0unj0007bgqeaedtcs0m" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-类和对象" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/10/类和对象/" class="article-date">
+  <time datetime="2015-12-10T08:42:55.000Z" itemprop="datePublished">2015-12-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/10/类和对象/">JAVA 类和对象复习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>1。static 静态方法中不可以使用this关键字<br>   在静态方法中不可以直接调用非静态方法<br>   在java中规定不能将方法体内的局内变量声明为  static</p>
+<p>2.主方法是静态的，所以如要直接在主方法中调用其他方法，则该方法必须也是静态</p>
+<p>3.对象的建立</p>
+<p>public class CreateObject {</p>
+<pre><code>public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {    //主方法
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub        
+        new <span class="type">CreateObject</span>();          //构建对象
+}
+public <span class="type">CreateObject</span>(){                //构造方法
+    <span class="type">System</span>.<span class="keyword">out</span>.println(<span class="string">"创建对象"</span>);
+}
+</code></pre><p>}</p>
+<p>4.final 类</p>
+<p>final  类名{ }<br>如果将某个类设置为final形式，则类中的所有方法都被隐式设置为final形式，但final类中的成员可以被定义成final或非final变量</p>
+<p>5.成员内部类</p>
+<p>public class OuterClass{    //外部类<br>    private class InnerClass{</p>
+<pre><code>    <span class="comment">//...</span>
+}
+</code></pre><p>}</p>
+<p>在外部类实例化内部类对象的引用<br>内部类构造方法<br>外部类方法，返回值为内部类引用<br>外部类不可以直接访问内部类成员变量<br>内部类的对象实例化操作 必须在外部类 或外部类 的非静态方法中实现<br>public class OuterClass {</p>
+<pre><code>innerClass <span class="keyword">in</span>=<span class="keyword">new</span> innerClass();            <span class="comment">//在外部类实例化内部类对象的引用</span>
+
+<span class="keyword">class</span> <span class="title">innerClass</span>{                        <span class="comment">//内部类构造方法</span>
+    <span class="keyword">int</span> y;
+    }
+<span class="function"><span class="keyword">public</span> innerClass <span class="title">doit</span>(<span class="params"></span>)</span>{                <span class="comment">//外部类方法，返回值为内部类引用</span>
+    <span class="comment">//int y;                         //外部类不可以直接访问内部类成员变量</span>
+    <span class="keyword">in</span>.y=<span class="number">4</span>;
+    <span class="keyword">return</span> <span class="keyword">new</span> innerClass();
+}
+
+<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(<span class="params">String[] args</span>) </span>{
+    <span class="comment">// TODO Auto-generated method stub</span>
+    OuterClass <span class="keyword">out</span>=<span class="keyword">new</span> OuterClass();
+    <span class="comment">//内部类的对象实例化操作 必须在外部类 或外部类 的非静态方法中实现</span>
+    OuterClass.innerClass <span class="keyword">in</span>=<span class="keyword">out</span>.doit();
+    OuterClass.innerClass in2=<span class="keyword">out</span>.new innerClass();
+
+}
+</code></pre><p>}</p>
+<p>package com.lzw;</p>
+<p>interface OutInterface{        //定义一个接口<br>    public void f();        //定义方法<br>}</p>
+<p>public class InterfaceInner {</p>
+<pre><code>public <span class="keyword">static</span> <span class="type">void</span> main(<span class="type">String</span>[] args) {
+    // <span class="type">TODO</span> <span class="type">Auto</span>-generated <span class="keyword">method</span> stub
+        <span class="type">OuterClass2</span> <span class="keyword">out</span>=new <span class="type">OuterClass2</span>();//实例化
+    //调用doit()方法，返回一个<span class="type">OutInterface</span>接口
+        <span class="type">OutInterface</span> outinter=<span class="keyword">out</span>.doit();
+        outinter.f();
+}
+</code></pre><p>}<br>class OuterClass2{</p>
+<pre><code><span class="comment">//定义一个内部类实现OutInterface</span>
+<span class="keyword">private</span> <span class="keyword">class</span> <span class="title">InnerClass</span> <span class="title">implements</span> <span class="title">OutInterface</span>{
+    InnerClass(String s){        <span class="comment">//内部类构造方法</span>
+        System.<span class="keyword">out</span>.println(s);
+    }
+    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f</span>(<span class="params"></span>)</span>{
+        System.<span class="keyword">out</span>.println(<span class="string">"访问内部类中的f（）方法"</span>);
+    }
+}
+<span class="function"><span class="keyword">public</span> OutInterface <span class="title">doit</span>(<span class="params"></span>)</span>{
+    <span class="keyword">return</span> <span class="keyword">new</span> InnerClass(<span class="string">"访问内部类构造方法"</span>);
+
+}
+</code></pre><p>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/10/类和对象/" data-id="cii4j0un50002bgqeqyunjcv5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-数据库" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/12/09/数据库/" class="article-date">
@@ -92,7 +699,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/09/数据库/" data-id="cii00m62d00016sqe8hj1eu06" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/09/数据库/" data-id="cii4j0une0005bgqewe5gdjse" class="article-share-link">Share</a>
       
       
     </footer>
@@ -102,265 +709,10 @@
 
 
   
-    <article id="post-c#" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/08/c#/" class="article-date">
-  <time datetime="2015-12-07T21:55:55.000Z" itemprop="datePublished">2015-12-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/08/c#/">c# 窗体加载下写下面2行代码全屏关闭按钮消失.</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <a id="more"></a>
-<p>c#<br>窗体加载下写下面2行代码全屏关闭按钮消失.<br>private void Form1_Load(object sender, EventArgs e)<br>        {<br>            this.WindowState = FormWindowState.Maximized;<br>            this.ControlBox = false;</p>
-<pre><code>}
-</code></pre><p>安alt+f4退出</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/08/c#/" data-id="cii00m62j00036sqepnpqpqnn" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Horizontal" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/01/Horizontal/" class="article-date">
-  <time datetime="2015-11-30T21:55:55.000Z" itemprop="datePublished">2015-12-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/01/Horizontal/">15.12.1笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <a id="more"></a>
-<p>1.android:layout_gravity=”center_horizontal”将控件置于水平方向的中心位置</p>
-<p>2.RadioGroup 中可以定义RadioButton  </p>
-<p>3.as中  ctrl+alt+L 调整布局</p>
-<p>4.View viewById = findViewById(R.id.tv_sex);</p>
-<p>ctrl+alt+v将findViewById(R.id.xx)补全</p>
-<p>案例：</p>
-<p>avtivity1</p>
-<p>&lt;?xml version=”1.0” encoding=”utf-8”?&gt;</p>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingbottom="@dimen/activity_vertical_margin" android:paddingleft="@dimen/activity_horizontal_margin" android:paddingright="@dimen/activity_horizontal_margin" android:paddingtop="@dimen/activity_vertical_margin" tools:context="com.example.administrator.jiaoxueshu.MainActivity"><br>   <linearlayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout"><br><br><br>    <textview android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名" android:id="@+id/textView"><br><br><br>    <edittext android:id="@+id/et_nm" android:text="请输入密码" android:layout_width="295dp" android:layout_height="wrap_content"><br></edittext></textview></linearlayout>
-
-
-<pre><code>&lt;LinearLayout
-    android:orientation=<span class="string">"horizontal"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span>&gt;
-  &lt;TextView
-
-      android:<span class="type">text</span>=<span class="string">"密码"</span>
-      android:layout_width=<span class="string">"wrap_content"</span>
-      android:layout_height=<span class="string">"wrap_content"</span> /&gt;
-    &lt;EditText
-        android:<span class="property">id</span>=<span class="string">"@+id/et_pw"</span>
-        android:layout_width=<span class="string">"310dp"</span>
-        android:layout_height=<span class="string">"wrap_content"</span>
-        android:<span class="type">text</span>=<span class="string">"请输入密码"</span>/&gt;
-&lt;/LinearLayout&gt;
-
-
-
-&lt;RadioGroup
-    android:orientation=<span class="string">"horizontal"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span>&gt;
-    &lt;RadioButton
-        android:<span class="property">id</span>=<span class="string">"@+id/rb_man"</span>
-        android:layout_width=<span class="string">"wrap_content"</span>
-        android:layout_height=<span class="string">"wrap_content"</span>
-        android:checked=<span class="string">"true"</span>
-        android:<span class="type">text</span>=<span class="string">"男"</span>
-
-        /&gt;
-    &lt;RadioButton
-        android:<span class="property">id</span>=<span class="string">"@+id/rb_woman"</span>
-        android:layout_width=<span class="string">"wrap_content"</span>
-        android:layout_height=<span class="string">"wrap_content"</span>
-        android:<span class="type">text</span>=<span class="string">"女"</span>
-
-        /&gt;
-
-&lt;/RadioGroup&gt;
-
-&lt;Button
-    android:<span class="property">id</span>=<span class="string">"@+id/bt"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span>
-    android:<span class="type">text</span>=<span class="string">"提交用户信息"</span>
-    android:layout_gravity=<span class="string">"center_horizontal"</span> /&gt;
-</code></pre><p></p></linearlayout><p></p>
-<p> activity2<br>  &lt;?xml version=”1.0” encoding=”utf-8”?&gt;</p>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
-
-<pre><code>&lt;TextView
-    android:<span class="property">id</span>=<span class="string">"@+id/tv_nm"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span> /&gt;
-
-&lt;TextView
-    android:<span class="property">id</span>=<span class="string">"@+id/tv_pw"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span> /&gt;
-
-&lt;TextView
-    android:<span class="property">id</span>=<span class="string">"@+id/tv_sex"</span>
-    android:layout_width=<span class="string">"wrap_content"</span>
-    android:layout_height=<span class="string">"wrap_content"</span> /&gt;
-</code></pre><p></p></linearlayout><br>MainActivity1<br>package com.example.administrator.jiaoxueshu;<p></p>
-<p>import android.app.Activity;<br>import android.content.Intent;<br>import android.support.v7.app.ActionBarActivity;<br>import android.os.Bundle;<br>import android.view.View;<br>import android.widget.Button;<br>import android.widget.EditText;<br>import android.widget.RadioButton;</p>
-<p>public class MainActivity extends Activity {</p>
-<pre><code><span class="keyword">private</span> EditText et_nm;
-<span class="keyword">private</span> EditText et_pw;
-<span class="keyword">private</span> RadioButton rb_man;
-<span class="keyword">private</span> RadioButton rb_woman;
-<span class="keyword">private</span> Button bt;
-
-@Override
-<span class="keyword">protected</span> <span class="keyword">void</span> onCreate(Bundle savedInstanceState) {
-    <span class="keyword">super</span>.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-     et_nm = (EditText) findViewById(R.id.et_nm);
-    et_pw= (EditText) findViewById(R.id.et_pw);
-    rb_man= (RadioButton) findViewById(R.id.rb_man);
-    rb_woman= (RadioButton) findViewById(R.id.rb_woman);
-     bt = (Button) findViewById(R.id.bt);
-
-    bt.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() {
-        @Override
-        <span class="keyword">public</span> <span class="keyword">void</span> onClick(View v) {
-            passDate();
-        }
-
-
-    });
-
-}
-
-<span class="keyword">public</span> <span class="keyword">void</span> passDate() {
-    <span class="comment">//创建Intent对象，启动Activity2</span>
-    Intent intent=<span class="keyword">new</span> Intent(<span class="keyword">this</span>,Activity2.class);
-    <span class="comment">//将数据存入Intent对象</span>
-    intent.putExtra(<span class="string">"name"</span>,et_nm.getText().toString().<span class="built_in">trim</span>());
-    intent.putExtra(<span class="string">"password"</span>,et_pw.getText().toString().<span class="built_in">trim</span>());
-    <span class="keyword">String</span> <span class="built_in">str</span>=<span class="string">""</span>;
-    <span class="keyword">if</span> (rb_man.isChecked()){
-        <span class="built_in">str</span>=<span class="string">"男"</span>;
-    }<span class="keyword">else</span> <span class="keyword">if</span> (rb_woman.isChecked()){
-        <span class="built_in">str</span>=<span class="string">"女"</span>;
-    }
-    intent.putExtra(<span class="string">"sex"</span>,<span class="built_in">str</span>);
-    startActivity(intent);
-}
-</code></pre><p>}</p>
-<p>MainActivity2<br>package com.example.administrator.jiaoxueshu;</p>
-<p>import android.app.Activity;<br>import android.content.Intent;<br>import android.os.Bundle;<br>import android.view.View;<br>import android.widget.TextView;</p>
-<p>/**</p>
-<ul>
-<li><p>Created by Administrator on 2015/12/1.<br>*/<br>public class Activity2 extends Activity {<br> private TextView tv_nm;<br> private TextView tv_pw;<br> private TextView tv_sex;</p>
-<p> protected void onCreate(Bundle savedInstanceState) {</p>
-<pre><code><span class="tag">super</span><span class="class">.onCreate</span>(<span class="tag">savedInstanceState</span>);
-<span class="tag">setContentView</span>(<span class="tag">R</span><span class="class">.layout</span><span class="class">.activity2</span>);
-</code></pre><p>//获取Intent对象</p>
-<pre><code><span class="constant">Intent intent</span> = getIntent();
-<span class="comment">//取出key对应的value值</span>
-<span class="constant">String name</span>=intent.getStringExtra(<span class="string">"name"</span>);
-<span class="constant">String password</span>=intent.getStringExtra(<span class="string">"password"</span>);
-<span class="constant">String sex</span>=intent.getStringExtra(<span class="string">"sex"</span>);
-tv_nm= (TextView) findViewById(R.id.tv_nm);
- tv_pw = (TextView) findViewById(R.id.tv_pw);
-tv_sex = (TextView) findViewById(R.id.tv_sex);
-tv_nm.setText(<span class="string">"用户名:"</span>+name);
-tv_pw.setText(<span class="string">"密码："</span>+password);
-tv_sex.setText(<span class="string">"性别："</span>+sex);
-</code></pre><p> }<br>}</p>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/01/Horizontal/" data-id="cii00m61x00006sqep688j18v" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-revolutionist" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/01/revolutionist/" class="article-date">
-  <time datetime="2015-11-30T21:55:55.000Z" itemprop="datePublished">2015-12-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/01/revolutionist/">revolution</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>12月1号</p>
-<p>看动画片（海贼王）到现在，活着总要给自己画一种色彩，revolutionist,革命之家，必有革命之道。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/01/revolutionist/" data-id="cii00m62g00026sqe0rm56b4q" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 </section>
         
@@ -376,7 +728,7 @@ tv_sex.setText(<span class="string">"性别："</span>+sex);
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">13</span></li></ul>
     </div>
   </div>
 
@@ -388,19 +740,23 @@ tv_sex.setText(<span class="string">"性别："</span>+sex);
       <ul>
         
           <li>
-            <a href="/2015/12/09/数据库/">数据库建表</a>
+            <a href="/2015/12/13/My-New-Post-1/">My New Post</a>
           </li>
         
           <li>
-            <a href="/2015/12/08/c#/">c# 窗体加载下写下面2行代码全屏关闭按钮消失.</a>
+            <a href="/2015/12/13/My-New-Post/">My New Post</a>
           </li>
         
           <li>
-            <a href="/2015/12/01/Horizontal/">15.12.1笔记</a>
+            <a href="/2015/12/11/包装类/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2015/12/01/revolutionist/">revolution</a>
+            <a href="/2015/12/10/流输入输出/">JAVA       I/O流输入输出 复习</a>
+          </li>
+        
+          <li>
+            <a href="/2015/12/10/数组/">JAVA  数组复习</a>
           </li>
         
       </ul>
